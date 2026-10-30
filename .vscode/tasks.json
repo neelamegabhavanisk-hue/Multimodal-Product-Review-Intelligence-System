@@ -1,0 +1,68 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run review intelligence app",
+			"type": "shell",
+			"command": "python -m streamlit run app.py --server.headless true --server.port 8501",
+			"args": [],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run review intelligence app",
+			"type": "shell",
+			"command": "py -m streamlit run app.py --server.headless true --server.port 8501",
+			"args": [],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Install app dependencies",
+			"type": "shell",
+			"command": "\"C:\\Users\\Neela Mega Bhavani\\anaconda3\\python.exe\" -m pip install -r requirements.txt",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Install app dependencies",
+			"type": "shell",
+			"command": "& \"C:\\Users\\Neela Mega Bhavani\\anaconda3\\python.exe\" -m pip install -r requirements.txt",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Check short path",
+			"type": "shell",
+			"command": "cmd /c dir \"C:\\Users\" /x",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Install dependencies",
+			"type": "shell",
+			"command": "cmd /c \"\"C:\\Users\\NEELAM~1\\anaconda3\\python.exe\" -m pip install -r \"C:\\Users\\NEELAM~1\\Final Project\\requirements.txt\"\"",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Install dependencies",
+			"type": "shell",
+			"command": "cmd /c \"cd /d \"\"C:\\Users\\NEELAM~1\\Final Project\"\" && \"\"C:\\Users\\NEELAM~1\\anaconda3\\python.exe\"\" -m pip install -r requirements.txt\"",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
